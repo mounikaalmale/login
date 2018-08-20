@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Login Page
+	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style type="text/css">
+		#jumbo{
+
+            margin: 55px;
+            border:1px solid black;
+            align-self: center;
+            float: right;
+		}
+		#check{
+			float: left;
+		}
+		#log{
+			float: right;
+			margin-left: 90px;
+          margin-top: 8px;	
+         }
+         #face{
+         	margin-left: 20px;
+         }
+         body
+         {
+background: linear-gradient(#18b6fd, white);
+
+}
+	</style>
+
+</head>
+<body>
+		<div class="container" >
+			<center>
+			<div class="col-md-6">
+			    <div class="jumbotron" id="jumbo">
+			    	<center>
+			    	<img src="steve1.jpg" class="img-responsive img-circle" height=75 width=75"><br>.
+			    	</center>
+	<h3>Admin Login</h3>
+	<h6>Sign in to your account</h6>
+	<form class="form-group" method="post" name="form1" onsubmit="validation(); > 
+		<label for="Email">Email ID</label>
+		<input type="text" class="form-control" name="email">
+		<label for="pwd">Password</label>
+		<input type="password" class="form-control" name="password">
+		<div class="form-inline" id="box">
+		<input type="checkbox" name="check" id="check">Remember me
+		<input type="submit" name="login" id="log" value="LOGIN" class="btn btn-primary btn-md"/><br><br><br>
+	</div>
+	<hr>
+	<center>
+		<div>
+         <h5>Connect with
+         	<span class="fa fa-facebook-square" id="face" style="font-size:24px"></span>
+         		<span class="fa fa-twitter" id="face" style="font-size:24px"></span>
+         </h5>  
+	</div>
+	</center>
+</form>
+</div>
+</div>	
+</center>
+</div>
+</body>
+</html>
